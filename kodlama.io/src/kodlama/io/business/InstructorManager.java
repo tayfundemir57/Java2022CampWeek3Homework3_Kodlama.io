@@ -20,7 +20,7 @@ public class InstructorManager {
 
 	public void add(Instructor instructor) {
 
-		instructors.add(instructor)
+		instructors.add(instructor);
 		instructorDao.add(instructor);
 
 		for (Logger logger : loggers) {
