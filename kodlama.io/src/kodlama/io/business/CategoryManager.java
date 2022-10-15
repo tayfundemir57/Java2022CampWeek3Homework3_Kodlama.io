@@ -31,6 +31,7 @@ public class CategoryManager {
 		}
 		
 		
+		categories.add(category)
 		categoryDao.add(category);
 		
 
